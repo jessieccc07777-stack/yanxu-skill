@@ -4,7 +4,12 @@
 
 ## 安装
 
-从 [Releases](https://github.com/jessieccc07777-stack/yanxu-skill/releases/latest) 下载附件 `yanxu-skill.zip`。在 Kimi Work 桌面端的技能面板上传 ZIP，选择技能 `thesis-kb`。运行生成脚本的环境需提供 Python 3。
+研序适用于支持本地自定义 Skill 的 AI 工具。该工具需要能加载 `SKILL.md`、读写你的论文项目目录，并运行 Python 3 脚本。
+
+从[版本发布页](https://github.com/jessieccc07777-stack/yanxu-skill/releases/latest)下载 `yanxu-skill.zip`，按所用工具的方式安装：
+
+- 支持导入技能压缩包时，直接导入 ZIP。
+- 使用本地技能目录时，将 ZIP 解压到该目录下的 `thesis-kb` 文件夹，使 `SKILL.md`、`scripts` 和 `references` 位于该文件夹的第一层。
 
 ## 开始使用
 
